@@ -7,14 +7,14 @@ class GameProvider extends ChangeNotifier {
   String _player2 = 'P 2';
   int _finalCounter = 0;
 
-  // Getters
+
   int get value1 => _value1;
   int get value2 => _value2;
   String get player1 => _player1;
   String get player2 => _player2;
   int get finalCounter => _finalCounter;
 
-  // Methods
+
   void add1() {
     _value1++;
     notifyListeners();

@@ -48,7 +48,6 @@ class _HomePageState extends State<HomePage> {
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.end,
                             children: [
-                              //button add
                               Row(
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceEvenly,
@@ -272,8 +271,6 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
-
-                //seetings button
                 SafeArea(
                   child: Padding(
                     padding: const EdgeInsets.only(top: 10, right: 5),

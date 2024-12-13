@@ -20,7 +20,6 @@ class SettingsBottomSheet extends StatelessWidget {
           ),
           child: Column(
             children: [
-              // Handle bar
               Container(
                 margin: const EdgeInsets.symmetric(vertical: 10),
                 height: 5,
@@ -30,7 +29,6 @@ class SettingsBottomSheet extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                 ),
               ),
-              // Title
               const Padding(
                 padding: EdgeInsets.all(20),
                 child: Text(
@@ -96,7 +94,6 @@ class SettingsBottomSheet extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 40),
-                    //by marouane fagri
                     Text(
                       'Developed by Marouane Fagri',
                       textAlign: TextAlign.center,
